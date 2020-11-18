@@ -14,17 +14,14 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/src.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/HelloController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/UserController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/UserDao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/User.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/UserService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/SqlEngine.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../awesomeProject/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UserController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/UserDao.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/UserService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/UserService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/SqlEngine.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/SqlEngine.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kDQQSu7PaNUqUGohQb6EKKqdlU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,21 +114,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605233610900" />
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom" timestamp="1605617158919">
+    <state width="1238" height="163" key="GridCell.Tab.0.bottom" timestamp="1605685256926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605617158919" />
-    <state width="1238" height="163" key="GridCell.Tab.0.center" timestamp="1605617158919">
+    <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605685256926" />
+    <state width="1238" height="163" key="GridCell.Tab.0.center" timestamp="1605685256926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605617158919" />
-    <state width="1238" height="163" key="GridCell.Tab.0.left" timestamp="1605617158919">
+    <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605685256926" />
+    <state width="1238" height="163" key="GridCell.Tab.0.left" timestamp="1605685256926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605617158919" />
-    <state width="1238" height="163" key="GridCell.Tab.0.right" timestamp="1605617158919">
+    <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605685256926" />
+    <state width="1238" height="163" key="GridCell.Tab.0.right" timestamp="1605685256926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605617158919" />
+    <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605685256926" />
   </component>
 </project>

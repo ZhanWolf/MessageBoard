@@ -13,9 +13,11 @@ func GetDb() *sql.DB {
 }
 
 func SqlEngine()  {
-	db, err := sql.Open("message_board", "root:12345678@tcp(localhost:3306)/ginsql")
+	db, err := sql.Open("mysql", "root:123456@tcp(localhost:3306)/message_board")
 	if err != nil {
 		fmt.Println(err)
+		return
 	}
 	Db = db
+//	fmt.Println("FSfdsasdf", db)
 }

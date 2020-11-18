@@ -2,6 +2,7 @@ package dao
 
 import (
 	"database/sql"
+	"fmt"
 	"time"
 )
 
@@ -9,21 +10,43 @@ type UserDao struct {
 	*sql.DB
 }
 
-//根据用户名查询数据库中用户是否已经存在
-func (dao *UserDao) QueryUsername(username string) bool{
-	row, err := dao.Query("select username from userinfo")
-	var str string
-	err = row.Scan(str)
+//根据用户名返回用户密码
+func (dao *UserDao) QueryUserPwd(username string) string {
+	row := dao.QueryRow("select password from userinfo where username = ? ", username)
+
+	err := row.Err()
 	if err != nil {
+		fmt.Println(err)
 		panic(err.Error())
 	}
 
-	if str != "" {
+	var pwd string
+	row.Scan(&pwd)
+	return pwd
+}
+
+//根据用户名查询数据库中用户是否已经存在
+func (dao *UserDao) QueryUsername(username string) bool{
+
+	row := dao.QueryRow("select username from userinfo")
+
+	err := row.Err()
+	if err != nil {
+		fmt.Println(err)
+		panic(err.Error())
+	}
+
+	var usr string
+	row.Scan(&usr)
+	if usr == "" {
 		return true
 	}
+
+	fmt.Println(usr)
 	return false
 }
 
+//插入注册信息
 func (dao *UserDao) InsertUser(username, pwd string) error {
 	registerTime := time.Now().Unix()
 	_, err := dao.Exec("insert into userinfo(username, password, register_time) " + "values(?, ?, ?);", username, pwd, registerTime)
