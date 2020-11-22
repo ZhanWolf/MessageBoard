@@ -10,6 +10,11 @@ type UserDao struct {
 	*sql.DB
 }
 
+func (dao *UserDao) ChangePwd(usernama, newPwd string) error {
+	_, err := dao.Exec("update userinfo set password = ? where username = ?", newPwd, usernama)
+	return err
+}
+
 //根据用户名返回用户密码
 func (dao *UserDao) QueryUserPwd(username string) string {
 	row := dao.QueryRow("select password from userinfo where username = ? ", username)
@@ -26,9 +31,9 @@ func (dao *UserDao) QueryUserPwd(username string) string {
 }
 
 //根据用户名查询数据库中用户是否已经存在
-func (dao *UserDao) QueryUsername(username string) bool{
+func (dao *UserDao) QueryUsername(name string) bool{
 
-	row := dao.QueryRow("select username from userinfo")
+	row := dao.QueryRow("select username from userinfo where username = ? ", name)
 
 	err := row.Err()
 	if err != nil {

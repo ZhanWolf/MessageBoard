@@ -11,6 +11,13 @@ type UserService struct {
 
 }
 
+//更改密码服务
+func (us *UserService) ChangePwd(username, newPwd string) error {
+	thisDao := dao2.UserDao{ tool.GetDb() }
+	err := thisDao.ChangePwd(username, newPwd)
+	return err
+}
+
 //登录服务
 func (us *UserService) LoginByPwd(username, pwd string) *http.Cookie  {
 	thisDao := dao2.UserDao{tool.GetDb()}
@@ -21,8 +28,9 @@ func (us *UserService) LoginByPwd(username, pwd string) *http.Cookie  {
 	}
 
 	cookie := &http.Cookie{
-		Name: username,
-		Value: pwd,
+		Name: "isLogin",
+		Value: username,
+		MaxAge: 300,
 		Path: "/",
 		HttpOnly: true,
 	}
