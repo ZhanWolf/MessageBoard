@@ -11,6 +11,10 @@ type MessageService struct {
 
 }
 
+func (ms *MessageService) like(id string)  {
+	
+}
+
 func (ms *MessageService) GetInfo(id string) (*Struct.Info, error) {
 	thisDao := dao2.MessageDao{tool.GetDb()}
 	Info, err := thisDao.GetInfo(id)

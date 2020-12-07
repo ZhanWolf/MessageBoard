@@ -14,11 +14,31 @@ type MessageController struct {
 func (mc *MessageController) Router(engine *gin.Engine) {
 
 	engine.POST("/msgs", mc.SendMsg)
+	engine.POST("/anonymousMsg", mc.anonymousMsg)
 	engine.DELETE("/msgs/:id", AdminMiddleWare(), mc.deleteMsg)
 	engine.GET("/msgs", mc.listMsgs)
 	engine.GET("/msgs/:id", mc.getOneMsgs)
 	engine.POST("/msgs/:id/comment", mc.SendComment)
 	engine.GET("/msgs/:id/messages", mc.listComment)
+}
+
+//匿名留言
+func (mc *MessageController) anonymousMsg(ctx *gin.Context)  {
+	username := tool.CheckLogin(ctx)
+	if username == "" {
+		tool.PrintInfo(ctx, "先登录在进行操作 ")
+		return
+	}
+
+	message := ctx.PostForm("message")
+	ms := service.MessageService{}
+	err := ms.SendMsg(message, "anonymous")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	tool.PrintInfo(ctx, "发表留言成功 ")
 }
 
 //单独列出一个留言的信息
