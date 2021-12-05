@@ -1,132 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b5da10-70f0-4970-bea1-e345b747b6a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../awesomeProject/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/main.go" afterDir="false" />
+    <list default="true" id="5d4ce0ee-a375-4ba9-97bf-c4c0b210c50f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MessageBoard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MessageBoard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/MessageControler.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MessageControler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/MessageService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/MessageService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.17.2/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kDQQSu7PaNUqUGohQb6EKKqdlU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="ProjectId" id="21a0UYQcRlVgfY3Rq8TNzyGTTHE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="restartRequiresConfirmation" value="false" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="MessageBoard" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="MessageBoard" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build MessageBoard" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
-      <module name="MessageBoard" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="MessageBoard" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="433" y="173" key="#Go_Modules" timestamp="1605233579686">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="433" y="173" key="#Go_Modules/0.0.1280.680@0.0.1280.680" timestamp="1605233579686" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605233610900">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605233610900" />
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom" timestamp="1606895890112">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606895890112" />
-    <state width="1238" height="163" key="GridCell.Tab.0.center" timestamp="1606895890112">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606895890112" />
-    <state width="1238" height="163" key="GridCell.Tab.0.left" timestamp="1606895890112">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606895890112" />
-    <state width="1238" height="163" key="GridCell.Tab.0.right" timestamp="1606895890112">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606895890112" />
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
